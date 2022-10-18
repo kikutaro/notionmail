@@ -26,7 +26,7 @@ public final class App {
             //メールの基本情報
             Mail msg = new Mail();
             msg.setSubject("nameさん宛てのメールです");
-            msg.setFrom(new Email("kikutaro@kikutaro.tech"));
+            msg.setFrom(new Email("from@example.com"));
             msg.addContent(new Content("text/plain", "name さん こんにちは。"));
             
             //ページからTableを取得
